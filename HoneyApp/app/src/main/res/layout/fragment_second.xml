@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF050923"
+    tools:context="com.developer.tonny.design.Fragments.SecondFragment">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        app:backgroundTint="#FFC107"
+        app:elevation="4dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_add" />
+
+    <ListView
+        android:id="@+id/listviewMedicamentos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/textView_MensajeSec"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/listviewMedicamentos"
+        android:background="#E207071E"
+        android:gravity="center"
+        android:text="@string/textView_MensajeSec"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF10222C"
+    tools:context="com.example.root.aplicacionbasedatos.InfoActivity">
+
+
+    <TextView
+        android:id="@+id/textView_SubTit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="@string/infoSubTit1"
+        android:textColor="#FFCDD1D3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_Records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_Records"
+        android:layout_alignBottom="@+id/button_Records"
+        android:layout_toLeftOf="@+id/button_PasswordChange"
+        android:layout_toStartOf="@+id/button_PasswordChange"
+        android:text="@string/infoRecordsText"
+        android:textColor="#FF329CDC"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_Records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_SubTit1"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/textView_Records"
+        android:layout_toRightOf="@+id/textView_Records"
+        android:background="#FF105F62"
+        android:text="@string/infoRecordsView"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView_SubTit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_Records"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/infoSubTit2"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_PasswordChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_SubTit2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/infoChanPass"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_PasswordChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_PasswordChange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:background="#FF105F62"
+        android:text="@string/infoBotonChanPass"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

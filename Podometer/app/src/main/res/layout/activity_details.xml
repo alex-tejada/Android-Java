@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF4D1163"
+    tools:context="com.example.root.aplicacionbasedatos.DetailsActivity">
+
+    <TextView
+        android:id="@+id/textView_DetailsSubTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Historial de puntaje"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/running" />
+
+    <TextView
+        android:id="@+id/textView_Account"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Cuenta:"
+        android:textColor="@android:color/white"
+        android:layout_alignBaseline="@+id/button_EraseRecords"
+        android:layout_alignBottom="@+id/button_EraseRecords"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView_DetailsSubTittle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="88dp"
+        android:id="@+id/listView_Records"/>
+
+    <Button
+        android:id="@+id/button_EraseRecords"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView_DetailsSubTittle"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="27dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/detailsErase"
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+</RelativeLayout>

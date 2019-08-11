@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developer.tonny.design.Activities.registroActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textView_RegistroTitF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/textView_RegistroTit"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_CorreoReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text="@string/textView_CorreoReg"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView_RegistroTitF"
+        android:layout_toLeftOf="@+id/textView_RegistroTitF"
+        android:layout_toStartOf="@+id/textView_RegistroTitF"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_alignBaseline="@+id/textView_CorreoReg"
+        android:layout_alignBottom="@+id/textView_CorreoReg"
+        android:layout_toRightOf="@+id/textView_CorreoReg"
+        android:layout_toEndOf="@+id/textView_CorreoReg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:id="@+id/textView_ContrasenaReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_CorreoReg"
+        android:layout_alignRight="@+id/textView_CorreoReg"
+        android:layout_below="@+id/txtCorreo"
+        android:layout_marginTop="38dp"
+        android:text="@string/textView_ContrasenaReg"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_ConfirmarReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_ConfirmarReg"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/txtConfContrasena"
+        android:layout_alignBottom="@+id/txtConfContrasena"
+        android:layout_alignRight="@+id/textView_ContrasenaReg"
+        android:layout_alignEnd="@+id/textView_ContrasenaReg" />
+
+    <EditText
+        android:id="@+id/txtContrasena2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtCorreo"
+        android:layout_alignStart="@+id/txtCorreo"
+        android:layout_alignTop="@+id/textView_ContrasenaReg"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtConfContrasena"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtContrasena2"
+        android:layout_alignStart="@+id/txtContrasena2"
+        android:layout_below="@+id/txtContrasena2"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnRegistrarme"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtConfContrasena"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/textView_ConfirmarReg"
+        android:layout_toRightOf="@+id/textView_ConfirmarReg"
+        android:background="#E207071E"
+        android:text="@string/btnRegistrarme"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

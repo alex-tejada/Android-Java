@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF050923">
+
+    <TextView
+        android:id="@+id/textView_Nombre"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Nombre"
+        android:textColor="#FF0157A7"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView_Fecha"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_Nombre"
+        android:layout_alignStart="@+id/textView_Nombre"
+        android:layout_below="@+id/textView_Cantidad"
+        android:layout_marginTop="17dp"
+        android:text="Fecha"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_Eliminar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/textView_Fecha"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@+id/textView_Fecha"
+        android:layout_toRightOf="@+id/textView_Fecha"
+        android:background="@drawable/eliminar" />
+
+    <Button
+        android:id="@+id/button_Editar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button_Eliminar"
+        android:layout_alignStart="@+id/button_Eliminar"
+        android:layout_alignTop="@+id/textView_Nombre"
+        android:background="@drawable/editar" />
+
+    <TextView
+        android:id="@+id/textView_Hora"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_Fecha"
+        android:layout_alignStart="@+id/textView_Fecha"
+        android:layout_below="@+id/textView_Fecha"
+        android:layout_marginTop="15dp"
+        android:text="Hora"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_Cantidad"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_Fecha"
+        android:layout_alignStart="@+id/textView_Fecha"
+        android:layout_below="@+id/textView_Nombre"
+        android:layout_marginTop="10dp"
+        android:text="Cantidad"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My HoneyApp</string>
+
+    <!--ajustesActivity-->
+    <string name="textView_InformacionTit">Personal Information</string>
+    <string name="textView_NombreInf" >Name</string>
+    <string name="textView_FechaNacInf" >Date of birth:</string>
+    <string name="textView_DiaInf" >Day</string>
+    <string name="textView_MesInf" >Month</string>
+    <string name="textView_AnoInf" >Year</string>
+    <string name="btnGuardarInf" >Save</string>
+    <string name="editText_Peso">Weight</string>
+    <string name="editText_Estatura">Height</string>
+    <string name="button_Fecha">Set Date</string>
+    <string name="editText_NumeroEmergencia">Emergency number</string>
+
+    <!--alimentosActivity-->
+    <string name="textView_AlimentosTit" >Food and Diet</string>
+    <string name="textView_AlimentoGpo">Food (Food group)</string>
+    <string name="textView_NombreAlim">Name:</string>
+    <string name="textView_CantidadGra">Amount(Gramos)</string>
+    <string name="btnAgregarAlim">Add</string>
+    <string name="textView_DiasAlim">Days:</string>
+
+    <!--calculadoraActivity-->
+    <string name="textView_MedicamentosTit">Medicines</string>
+    <string name="textView_NombreMed">Name:</string>
+    <string name="textView_CantidadMed">Amount:</string>
+    <string name="textView_CadaMed">Every:</string>
+    <string name="textView_DiasMed">Days:</string>
+    <string name="btnAgregarMed">Add</string>
+    <string name="checkBox_Lunes">Monday</string>
+    <string name="checkBox_Martes">Tuesday</string>
+    <string name="checkBox_Miercoles">Widnesday</string>
+    <string name="checkBox_Jueves">Thursday</string>
+    <string name="checkBox_Viernes">Friday</string>
+    <string name="checkBox_Sabado">Saturday</string>
+    <string name="checkBox_Domingo">Sunday</string>
+
+    <!--emergenciasActivity-->
+    <string name="textView_CitaTit">Dates</string>
+    <string name="textView_NombreCit">Note name:</string>
+    <string name="textView_FechaCit">Date:</string>
+    <string name="textView_HoraCit">Hour:</string>
+    <string name="textView_DescripcionCit">Description</string>
+    <string name="btnAgregarCit">Add</string>
+    <string name="btnAgregarCitUp">Save</string>
+    <string name="button_FechaCap">Set Date</string>
+    <string name="button_HoraCap">Set Hour</string>
+
+    <!--loginActivity-->
+    <string name="textView_InciarSesionTit">Sign In</string>
+    <string name="textView_Usuario">User</string>
+    <string name="textView_Contrasena">Password</string>
+    <string name="btnEntrar">Log in</string>
+    <string name="btnRegistrarse">Register</string>
+
+    <!--mapaactivity-->
+    <string name="textView_TiendasMap">Closes pharmacy</string>
+    <string name="button_showPlaces">Begin search</string>
+    <string name="tittleLocation">Current Location</string>
+    <string name="messageShowing">Searching Places</string>
+    <string name="messageGPS">Locating por GPS, please keep Turned ON</string>
+
+    <!--registroActivity-->
+    <string name="textView_RegistroTit">Registry</string>
+    <string name="textView_CorreoReg">Email</string>
+    <string name="textView_ContrasenaReg">Password</string>
+    <string name="textView_ConfirmarReg">Confirm</string>
+    <string name="btnRegistrarme">Register</string>
+
+    <!--mainActivity-->
+    <string name="titleRegisttry">Registry</string>
+    <string name="titleMedicines">Medicines</string>
+    <string name="titleDates">Dates</string>
+
+    <!--InsulinActivity-->
+    <string name="tittleInsulin">Insulin</string>
+
+    <!--fragment_first-->
+    <string name="textView_RegistroTitF">Insulin amount</string>
+    <string name="textView_NivelesGlu">Glucose levels:</string>
+    <string name="textView_CantidadIns">Necessary insulin amount:</string>
+    <string name="btnGuardarGlu">Save</string>
+    <string name="textView_InsulinaNec">No added</string>
+    <string name="textView_CarbohidratosAgr">Necessary Carbohydrates</string>
+    <string name="textView_CarbAgr">No added</string>
+    <string name="columnNameDateHour">Date:</string>
+    <string name="columnNameType">Glucose(mg):</string>
+    <string name="columnNameAmount">Insulin(un):</string>
+    <string name="messageCall">Hold button for start call</string>
+    <string name="messageSetNumber">Plase sign in and set Emergency Number on Settings</string>
+    <string name="messageNoRecords">No data exists on records</string>
+    <string name="button_newInsulin">Insulin dose</string>
+    <string name="button_records">Records</string>
+    <string name="messageLogin">Please login</string>
+    <string name="button_GlucoseIn">Glucose</string>
+
+    <string name="textView_TittleDialogInsulin">Insulin</string>
+    <string name="textView_WeightDialog">Weight:</string>
+    <string name="textView_UnitsInsulinDialog">Recommended insulin dose:</string>
+    <string name="textView_DoseRecommendedDialog">Recommended applications amount:</string>
+    <string name="button_Mod">Modify</string>
+    <string name="textView_AccountDialog">Account:</string>
+
+    <!--fragment_second-->
+    <string name="textView_MensajeSec">Please Log In</string>
+    <string name="dialogMessage">¿Do you really want to delete this?</string>
+    <string name="dialogYes">Yes</string>
+    <string name="dialogNo">Cancel</string>
+    <string name="listCantidad">Amount: </string>
+    <string name="listDias">Days: </string>
+    <string name="listCada">Every: </string>
+
+    <!--fragment_third-->
+    <string name="textView_MensajeThird">Please Log In</string>
+    <string name="listFecha">Date: </string>
+    <string name="listHora">Hour: </string>
+
+    <!--Menu-->
+    <string name="menu_medicamentos">Medicines</string>
+    <string name="menu_emergencias">Dates</string>
+    <string name="menu_mapa">Stores</string>
+    <string name="menu_ajustes">Configuration</string>
+    <string name="menu_mailLogin">Login</string>
+    <string name="menu_mailLogout">Logout</string>
+
+
+    <!--splashActivity-->
+    <string name="textView_Cargando">Loading...</string>
+
+    <!-- Dialog -->
+    <string name="glucosaTit">Glucose</string>
+    <string name="glucosaNivel">Tape your glucose level:</string>
+    <string name="glucosaCalcular">Calculate</string>
+    <string name="glucosaUnidades">Insulin units:</string>
+    <string name="insulinaTit">Insulin</string>
+    <string name="insulinaDosis">Recommended insulin amount:</string>
+    <string name="insulinaCantidad">Recommended insulin application:</string>
+    <string name="insulinaDesayuno">Breakfast:</string>
+    <string name="insulinaComida">Lunch:</string>
+    <string name="insulinaCena">Dinner:</string>
+    <string name="historialTit">Records</string>
+
+    <!--Messages-->
+    <string name="errorEmail">Incorrect Email</string>
+    <string name="errorPassword">Incorrect Password</string>
+    <string name="errorPasswordNotEquals">Password fields doesn\'t match</string>
+    <string name="errorFillSpaces">Fill all the fields</string>
+    <string name="registered">Registered</string>
+    <string name="Added">Added</string>
+    <string name="Updated">Updated</string>
+    <string name="InfoUser">Please, set all user info</string>
+    <string name="NoUserInfo">Please get to Configuration and set all info</string>
+
+    <string name="loggedIn">Logged in</string>
+    <string name="loggedOut">Logged out</string>
+
+    <!--Spinner-->
+    <string-array name="spinner_Cada">
+        <item>4 hours</item>
+        <item>6 hours</item>
+        <item>8 hours</item>
+        <item>12 hours</item>
+        <item>14 hours</item>
+        <item>16 hours</item>
+        <item>Every Day</item>
+    </string-array>
+</resources>

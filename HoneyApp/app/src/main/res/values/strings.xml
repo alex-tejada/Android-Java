@@ -1,0 +1,169 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">My HoneyApp</string>
+
+    <!--ajustesActivity-->
+    <string name="textView_InformacionTit">Informacion Personal</string>
+    <string name="textView_NombreInf">Nombre</string>
+    <string name="textView_FechaNacInf">Fecha de nacimiento:</string>
+    <string name="textView_DiaInf">Dia</string>
+    <string name="textView_MesInf">Mes</string>
+    <string name="textView_AnoInf">Año</string>
+    <string name="btnGuardarInf">Guardar</string>
+    <string name="editText_Peso">Peso</string>
+    <string name="editText_Estatura">Estatura</string>
+    <string name="button_Fecha">Capturar</string>
+    <string name="editText_NumeroEmergencia">Numero de emergencia</string>
+
+    <!--alimentosActivity-->
+    <string name="textView_AlimentosTit">Alimentos y Dieta</string>
+    <string name="textView_AlimentoGpo">Alimento (Grupo)</string>
+    <string name="textView_NombreAlim">Nombre:</string>
+    <string name="textView_CantidadGra">Cantidad(Gramos)</string>
+    <string name="btnAgregarAlim">Agregar</string>
+    <string name="textView_DiasAlim">Dias:</string>
+
+    <!--calculadoraActivity-->
+    <string name="textView_MedicamentosTit">Medicamentos</string>
+    <string name="textView_NombreMed">Nombre:</string>
+    <string name="textView_CantidadMed">Cantidad:</string>
+    <string name="textView_CadaMed">Cada:</string>
+    <string name="textView_DiasMed">Dias:</string>
+    <string name="btnAgregarMed">Agregar</string>
+    <string name="checkBox_Lunes">Lunes</string>
+    <string name="checkBox_Martes">Martes</string>
+    <string name="checkBox_Miercoles">Miercoles</string>
+    <string name="checkBox_Jueves">Jueves</string>
+    <string name="checkBox_Viernes">Viernes</string>
+    <string name="checkBox_Sabado">Sabado</string>
+    <string name="checkBox_Domingo">Domingo</string>
+
+
+    <!--emergenciasActivity-->
+    <string name="textView_CitaTit">Citas</string>
+    <string name="textView_NombreCit">Nombre de nota:</string>
+    <string name="textView_FechaCit">Fecha:</string>
+    <string name="textView_HoraCit">Hora:</string>
+    <string name="textView_DescripcionCit">Descripcion</string>
+    <string name="btnAgregarCit">Agregar</string>
+    <string name="btnAgregarCitUp">Guardar</string>
+    <string name="button_FechaCap">Capturar</string>
+    <string name="button_HoraCap">Capturar</string>
+
+    <!--loginActivity-->
+    <string name="textView_InciarSesionTit">Iniciar Sesion</string>
+    <string name="textView_Usuario">Usuario</string>
+    <string name="textView_Contrasena">Contraseña</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnRegistrarse">Registrarse</string>
+
+    <!--mapactivity-->
+    <string name="textView_TiendasMap">Farmacias cercanas</string>
+    <string name="button_showPlaces">Iniciar busqueda</string>
+    <string name="tittleLocation">Ubicacion actual</string>
+    <string name="messageShowing">Buscando lugares</string>
+    <string name="messageGPS">Localizando por GPS, porfavor mantengalo activado</string>
+
+    <!--registroActivity-->
+    <string name="textView_RegistroTit">Registro</string>
+    <string name="textView_CorreoReg">Correo</string>
+    <string name="textView_ContrasenaReg">Contraseña</string>
+    <string name="textView_ConfirmarReg">Confirmar</string>
+    <string name="btnRegistrarme">Registrarme</string>
+
+    <!--mainActivity-->
+    <string name="titleRegisttry">Registro</string>
+    <string name="titleMedicines">Medicamento</string>
+    <string name="titleDates">Citas</string>
+
+    <!--InsulinActivity-->
+    <string name="tittleInsulin">Insulina</string>
+
+    <!--fragment_first-->
+    <string name="textView_RegistroTitF">Calculo de insulina</string>
+    <string name="textView_NivelesGlu">Niveles de glucosa:</string>
+    <string name="textView_CantidadIns">Cantidad de insulina necesaria:</string>
+    <string name="btnGuardarGlu">Guardar</string>
+    <string name="textView_InsulinaNec">Sin agregar</string>
+    <string name="textView_CarbohidratosAgr">Carbohidratos necesarios</string>
+    <string name="textView_CarbAgr">Sin agregar</string>
+    <string name="columnNameDateHour">Fecha:</string>
+    <string name="columnNameType">Glucosa(mg):</string>
+    <string name="columnNameAmount">Insulina(un):</string>
+    <string name="messageCall">Mantenga pulsado el botón para llamar</string>
+    <string name="messageSetNumber">Inicie sesion y capture el numero de emergencia en Ajustes</string>
+    <string name="messageNoRecords">Sin datos en el historial</string>
+    <string name="button_newInsulin">Dosis de insulina</string>
+    <string name="button_records">Historial</string>
+    <string name="button_GlucoseIn">Glucosa</string>
+
+    <string name="textView_TittleDialogInsulin">Insulina</string>
+    <string name="textView_WeightDialog">Peso:</string>
+    <string name="textView_UnitsInsulinDialog">Dosis de insulina recomendada:</string>
+    <string name="textView_DoseRecommendedDialog">Cantidad de aplicaciones recomendada:</string>
+    <string name="textView_AccountDialog">Cuenta:</string>
+
+    <!--fragment_second-->
+    <string name="textView_MensajeSec">Inicie sesion por favor</string>
+    <string name="dialogMessage">¿Esta seguro que desea eliminarlo?</string>
+    <string name="dialogYes">Si</string>
+    <string name="dialogNo">Cancelar</string>
+    <string name="listCantidad">Cantidad: </string>
+    <string name="listDias">Dias: </string>
+    <string name="listCada">Cada: </string>
+
+    <!--fragment_third-->
+    <string name="textView_MensajeThird">Inicie sesion por favor</string>
+    <string name="listFecha">Fecha: </string>
+    <string name="listHora">Hora: </string>
+
+    <!--Menu-->
+    <string name="menu_medicamentos">Medicamentos</string>
+    <string name="menu_alimentos">Alimentos</string>
+    <string name="menu_emergencias">Citas</string>
+    <string name="menu_mapa">Establecimientos</string>
+    <string name="menu_ajustes">Ajustes</string>
+    <string name="menu_mailLogin">Iniciar Sesion</string>
+    <string name="menu_mailLogout">Cerrar Sesion</string>
+
+    <!--splashActivity-->
+    <string name="textView_Cargando">Cargando...</string>
+
+    <!--Messages-->
+    <string name="errorEmail">Correo electronico incorrecto</string>
+    <string name="errorPassword">Contrase&#241;a incorrecta</string>
+    <string name="errorPasswordNotEquals">Las costrase&#241;as no coinciden</string>
+    <string name="errorFillSpaces">Complete todos los campos</string>
+    <string name="registered">Registrado</string>
+    <string name="Added">Agregado</string>
+    <string name="Updated">Actualizado</string>
+    <string name="InfoUser">Porfavor, llene toda la informacion</string>
+    <string name="NoUserInfo">Porfavor ingrese a Ajustes y llene la informacion</string>
+
+    <string name="loggedIn">Inicio sesion</string>
+    <string name="loggedOut">Cerro sesion</string>
+
+    <!-- Dialog -->
+    <string name="glucosaTit">Glucosa</string>
+    <string name="glucosaNivel">Ingrese nivel de glucosa:</string>
+    <string name="glucosaCalcular">Calcular</string>
+    <string name="glucosaUnidades">Unidades de insulina:</string>
+    <string name="insulinaTit">Insulina</string>
+    <string name="insulinaDosis">Dosis de insulina recomendada:</string>
+    <string name="insulinaCantidad">Cantidad de aplicaciones recomendada:</string>
+    <string name="insulinaDesayuno">Desayuno:</string>
+    <string name="insulinaComida">Comida:</string>
+    <string name="insulinaCena">Cena:</string>
+    <string name="historialTit">Historial</string>
+
+    <!--Spinners-->
+    <string-array name="spinner_Cada">
+        <item>4 horas</item>
+        <item>6 horas</item>
+        <item>8 horas</item>
+        <item>12 horas</item>
+        <item>14 horas</item>
+        <item>16 horas</item>
+        <item>Cada dia</item>
+    </string-array>
+</resources>

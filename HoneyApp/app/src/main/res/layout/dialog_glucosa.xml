@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:id="@+id/textView_GlucosaTit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="19dp"
+        android:background="#FF451123"
+        android:text="@string/glucosaTit"
+        />
+
+    <TextView
+        android:id="@+id/textView_GlucosaLvl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_GlucosaTit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/glucosaNivel"
+        android:textColor="#FF451123"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editText_Glucosa"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/textView_GlucosaLvl"
+        android:layout_alignLeft="@+id/textView_GlucosaEstado"
+        android:layout_alignStart="@+id/textView_GlucosaEstado" />
+
+    <TextView
+        android:id="@+id/textView_GlucosaEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:textSize="16sp"
+        android:text="@string/glucosaUnidades"
+        android:textColor="@android:color/black"
+        android:visibility="visible"
+        android:layout_below="@+id/button_GlucosaCalcular"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mg/dl"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/editText_Glucosa"
+        android:layout_alignBottom="@+id/editText_Glucosa"
+        android:layout_alignRight="@+id/textView_GlucosaLvl"
+        android:layout_alignEnd="@+id/textView_GlucosaLvl" />
+
+    <TextView
+        android:id="@+id/textView_CantidadInsulina"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@+id/textView_GlucosaEstado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_GlucosaCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_Glucosa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/glucosaCalcular"
+        android:textColor="@android:color/white"
+        android:background="#E207071E"/>
+
+</RelativeLayout>

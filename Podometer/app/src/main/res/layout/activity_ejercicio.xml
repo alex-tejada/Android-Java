@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.aplicacionbasedatos.EjercicioActivity">
+
+    <TextView
+        android:id="@+id/textView_exerciseTit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FF050951"
+        android:gravity="center"
+        android:text="@string/ejercicioSubTitulo"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/listView_Ejercicios"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView_exerciseTit"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

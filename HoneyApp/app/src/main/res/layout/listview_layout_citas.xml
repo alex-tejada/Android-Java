@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF050923">
+
+    <TextView
+        android:id="@+id/txtTituloAg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#FF0157A7"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtFechaAg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTituloAg"
+        android:layout_alignStart="@+id/txtTituloAg"
+        android:layout_below="@+id/txtTituloAg"
+        android:layout_marginTop="17dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtHoraAg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtFechaAg"
+        android:layout_alignStart="@+id/txtFechaAg"
+        android:layout_below="@+id/txtFechaAg"
+        android:layout_marginTop="13dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBorrarAg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtFechaAg"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_toEndOf="@+id/txtFechaAg"
+        android:layout_toRightOf="@+id/txtFechaAg"
+        android:background="@drawable/eliminar"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txtDescripcionAg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtHoraAg"
+        android:layout_alignStart="@+id/txtHoraAg"
+        android:layout_below="@+id/txtHoraAg"
+        android:layout_marginTop="11dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_EditarAg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btnBorrarAg"
+        android:layout_alignStart="@+id/btnBorrarAg"
+        android:layout_alignTop="@+id/txtTituloAg"
+        android:background="@drawable/editar" />
+</RelativeLayout>

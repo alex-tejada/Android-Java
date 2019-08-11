@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developer.tonny.design.Activities.Citas">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <Button
+        android:id="@+id/btnAgregarCit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="#E207071E"
+        android:text="@string/btnAgregarCit"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView_CitaTit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/textView_CitaTit"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView_NombreCit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="@string/textView_NombreCit"
+        android:layout_below="@+id/textView_CitaTit"
+        android:layout_toLeftOf="@+id/editText_NombreNota"
+        android:layout_toStartOf="@+id/editText_NombreNota" />
+
+    <EditText
+        android:id="@+id/editText_NombreNota"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/textView_NombreCit"
+        android:layout_alignBottom="@+id/textView_NombreCit"
+        android:layout_alignLeft="@+id/textView_CitaTit"
+        android:layout_alignStart="@+id/textView_CitaTit"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:id="@+id/textView_FechaCit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textView_FechaCit"
+        android:layout_below="@+id/editText_NombreNota"
+        android:layout_toLeftOf="@+id/editText_NombreNota"
+        android:layout_toStartOf="@+id/editText_NombreNota"
+        android:layout_marginTop="37dp" />
+
+    <Button
+        android:id="@+id/button_FechaCap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_FechaCit"
+        android:layout_alignBottom="@+id/textView_FechaCit"
+        android:layout_alignLeft="@+id/editText_NombreNota"
+        android:layout_alignStart="@+id/editText_NombreNota"
+        android:background="#E207071E"
+        android:text="@string/button_FechaCap"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView_HoraCit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:text="@string/textView_HoraCit"
+        android:layout_below="@+id/editText_NombreNota"
+        android:layout_toLeftOf="@+id/editText_NombreNota"
+        android:layout_toStartOf="@+id/editText_NombreNota" />
+
+    <Button
+        android:id="@+id/button_HoraCap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_HoraCit"
+        android:layout_alignBottom="@+id/textView_HoraCit"
+        android:layout_alignLeft="@+id/button_FechaCap"
+        android:layout_alignStart="@+id/button_FechaCap"
+        android:background="#E207071E"
+        android:text="@string/button_HoraCap"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView_DescripcionCit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_HoraCit"
+        android:layout_alignRight="@+id/textView_HoraCit"
+        android:layout_below="@+id/button_HoraCap"
+        android:layout_marginTop="29dp"
+        android:text="@string/textView_DescripcionCit" />
+
+    <EditText
+        android:id="@+id/editText_Descripcion"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_HoraCap"
+        android:layout_alignStart="@+id/button_HoraCap"
+        android:layout_below="@+id/button_HoraCap"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>

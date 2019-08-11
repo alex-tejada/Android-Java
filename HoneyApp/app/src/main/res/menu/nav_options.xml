@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/menuNavigation">
+
+        <item
+            android:id="@+id/menu_mail"
+            android:icon="@android:drawable/ic_dialog_email"
+            />
+
+        <item android:id="@+id/menu_medicamentos"
+            android:title="@string/menu_medicamentos"
+            android:icon="@drawable/ic_medicines"/>
+
+        <item android:id="@+id/menu_emergencias"
+            android:title="@string/menu_emergencias"
+            android:icon="@drawable/ic_dates"/>
+
+        <item android:id="@+id/menu_mapa"
+            android:title="@string/menu_mapa"
+            android:icon="@drawable/ic_stores"/>
+    </group>
+
+</menu>

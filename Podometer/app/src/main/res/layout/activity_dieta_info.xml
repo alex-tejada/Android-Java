@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.aplicacionbasedatos.DietaInfoActivity">
+
+    <TextView
+        android:id="@+id/textView_titPlatillo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF740066"
+        android:gravity="center"
+        android:text="@string/dietaInfoPlatillo"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView_imagenPlatillo"
+        android:layout_width="350dp"
+        android:layout_height="210dp"
+        android:layout_below="@+id/textView_titPlatillo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+    <ListView
+        android:id="@+id/listView_platillos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView_imagenPlatillo"
+        android:layout_marginTop="14dp"
+        android:textAlignment="center"></ListView>
+
+</RelativeLayout>

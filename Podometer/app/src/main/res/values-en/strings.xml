@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AplicacionBaseDatos</string>
+    <string name="loginEntrar">Enter</string>
+    <string name="loginRegistrarse">Register</string>
+    <string name="loginUsuario">Username</string>
+    <string name="loginContrasena">Password</string>
+    <string name="loginTituloVentana">Log in</string>
+    <string name="loginMensajContraseña">Incorrect password</string>
+    <string name="loginMensajeUsuario">Incorrect username</string>
+    <string name="loginSinUsuarios">No users registry</string>
+    <string name="loginCaptura">Please enter user and password</string>
+
+    <string name="registerRegistrarse">Sign up</string>
+    <string name="registerUsuario">Username</string>
+    <string name="registerContrasena">Password</string>
+    <string name="registerTituloVentana">Registry</string>
+    <string name="registerMensaje">Registered</string>
+    <string name="registerSubTitulo">User Information</string>
+
+    <string name="pasosPresioneBoton">Press for begin</string>
+    <string name="pasosIniciandoBoton">Starting...</string>
+    <string name="pasosDetenerBoton">Stop</string>
+    <string name="pasosReiniciarBoton">Start again</string>
+    <string name="pasosEjercicioBoton">Exercise</string>
+    <string name="pasosDietaBoton">Fitness</string>
+    <string name="pasosCaloriasBoton">Calories: </string>
+    <string name="pasosDistanciaBoton">Traveled: </string>
+    <string name="pasosPasos">Steps: </string>
+    <string name="pasosDistancia">Distance: </string>
+    <string name="pasosCalorias">Calories: </string>
+    <string name="pasosMensajeAct">Enableing</string>
+    <string name="pasosMensajeDesac">Disableing</string>
+    <string name="pasosGuardar">Save Score</string>
+
+    <string name="dietSubTitulo">Available Food</string>
+    <string name="dietTitulo">Diet</string>
+    <string name="dietCalorias">Calories: </string>
+    <string name="dietPreparacion">Show Recipe</string>
+
+    <string name="dietaInfoTitulo">Dishes</string>
+    <string name="dietaInfoIngredientes">Ingredients</string>
+    <string name="dietaInfoReceta">Recipe</string>
+    <string name="dietaInfoPlatillo">Dish</string>
+    <string name="platoHamb">BBQ Hamburguer</string>
+    <string name="platoEns">Middle east rice Salad</string>
+    <string name="platoHum">White Bean and Herb Hummus with Crudites</string>
+    <string name="platoBro">Brocoli and Feta Omelete</string>
+    <string name="platoHon">Honey grapfruit with Banana</string>
+
+    <string name="ejercicioTitulo">Exercise</string>
+    <string name="ejercicioSubTitulo">¿What will you work?</string>
+    <string name="ejercicioAbdominales">Abss</string>
+    <string name="ejercicioEspalda">Back</string>
+    <string name="ejercicioPiernas">Legs</string>
+    <string name="ejercicioBicep">Bicep</string>
+    <string name="ejercicioTricep">Tricep</string>
+    <string name="ejercicioPecho">Chest</string>
+    <string name="ejercicioGluteos">Gluts</string>
+    <string name="ejercicioCalorias">Calories on Burn: </string>
+
+    <string name="ejercicioInfoTitulo">Exercises</string>
+    <string name="ejercicioInfoDias">Routune days: </string>
+    <string name="ejercicioInfoTiempo">Time for routine: </string>
+    <string name="ejercicioInfoDiasInfo">Monday,Tuesday,Wednesday and Sunday</string>
+    <string name="ejercicioInfoTiempoInfo">30 minutes per routine or 4 set of 15 repetitions</string>
+
+    <string name="infoTit">Account information</string>
+    <string name="infoSubTit1">Account</string>
+    <string name="infoBotonChanPass">Change</string>
+    <string name="infoSubTit2">Account Data</string>
+    <string name="infoChanPass">New Password</string>
+    <string name="infoRecordsView">Show</string>
+    <string name="infoRecordsText">Records</string>
+
+    <string name="detailTit">Details</string>
+    <string name="detailsErase">Erase all</string>
+    <string name="detailsAccountName">Account: </string>
+    <string name="detailFecha">Date: </string>
+    <string name="detailCantidadPasos">Steps Amount: </string>
+    <string name="detailCantidadRecorrida">Distance Amount: </string>
+    <string name="detailCantidadCalorias">Calorie Burned: </string>
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0F112F"
+    tools:context="com.example.root.aplicacionbasedatos.PasosActivity">
+
+    <Button
+        android:id="@+id/button_Details"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/face"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_Dieta"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="43dp"
+        android:layout_toEndOf="@+id/textView_Distancia"
+        android:layout_toRightOf="@+id/textView_Distancia"
+        android:background="@drawable/diet" />
+
+    <Button
+        android:id="@+id/button_Ejercicio"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/button_Dieta"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/button_Dieta"
+        android:layout_toRightOf="@+id/button_Dieta"
+        android:background="@drawable/ejercicio" />
+
+    <Button
+        android:id="@+id/button_Round"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@+id/textView_Pasos"
+        android:layout_alignStart="@+id/textView_Pasos"
+        android:layout_alignTop="@+id/button_Details"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:text=""
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_Details"
+        android:layout_alignStart="@+id/button_Details"
+        android:layout_below="@+id/button_Details"
+        android:layout_marginTop="11dp"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView_dieta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_Ejercicio"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_toLeftOf="@+id/button_Ejercicio"
+        android:layout_toStartOf="@+id/button_Ejercicio"
+        android:text="@string/pasosDietaBoton"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView_ejercicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_dieta"
+        android:layout_alignBottom="@+id/textView_dieta"
+        android:layout_alignEnd="@+id/button_Ejercicio"
+        android:layout_alignRight="@+id/button_Ejercicio"
+        android:text="@string/pasosEjercicioBoton"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView_Distancia"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView_Calorias"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:drawableTop="@drawable/distance"
+        android:gravity="bottom"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView_Calorias"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="26dp"
+        android:drawableTop="@drawable/burnedca"
+        android:gravity="bottom"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        android:layout_below="@+id/button_Round"
+        android:layout_alignRight="@+id/button_Details"
+        android:layout_alignEnd="@+id/button_Details" />
+
+    <TextView
+        android:id="@+id/textView_Pasos"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/button_Dieta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/round_pasos"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_SaveRecord"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_Dieta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/pasosGuardar"
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.aplicacionbasedatos.EjercicioInfoActivity">
+
+    <TextView
+        android:id="@+id/textView_titEjercicios"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF600635"
+        android:gravity="center"
+        android:text="Musculo Seleccionado"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubeplayer"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@+id/textView_titEjercicios" />
+
+    <ListView
+        android:id="@+id/listview_ejerciciosInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/youtubeplayer"
+        android:background="#FF192831" />
+</RelativeLayout>

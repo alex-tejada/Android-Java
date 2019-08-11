@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developer.tonny.design.Activities.Medicamentos">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textView_MedicamentosTit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/textView_MedicamentosTit"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_NombreMed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_MedicamentosTit"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="54dp"
+        android:layout_toLeftOf="@+id/textView_MedicamentosTit"
+        android:layout_toStartOf="@+id/textView_MedicamentosTit"
+        android:text="@string/textView_NombreMed"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText_Name"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_NombreMed"
+        android:layout_alignBottom="@+id/textView_NombreMed"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_toRightOf="@+id/textView_NombreMed"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView_CantidadMed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_NombreMed"
+        android:layout_alignStart="@+id/textView_NombreMed"
+        android:layout_below="@+id/editText_Name"
+        android:layout_marginTop="30dp"
+        android:text="@string/textView_CantidadMed"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_Cantidad"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/checkBox_Sabado"
+        android:layout_alignRight="@+id/checkBox_Sabado"
+        android:layout_alignTop="@+id/textView_CantidadMed" />
+
+    <TextView
+        android:id="@+id/textView_CadaMed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_CantidadMed"
+        android:layout_alignRight="@+id/textView_CantidadMed"
+        android:layout_alignTop="@+id/spinner_Cada"
+        android:text="@string/textView_CadaMed"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_Cada"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/btnAgregarMed"
+        android:layout_alignStart="@+id/btnAgregarMed"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/btnAgregarMed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:background="#E207071E"
+        android:text="@string/btnAgregarMed"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView_DiasMed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="@string/textView_DiasMed"
+        android:layout_below="@+id/spinner_Cada"
+        android:layout_alignRight="@+id/checkBox_Jueves"
+        android:layout_alignEnd="@+id/checkBox_Jueves" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Lunes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/checkBox_Lunes"
+        android:layout_below="@+id/textView_DiasMed"
+        android:layout_alignRight="@+id/textView_CadaMed"
+        android:layout_alignEnd="@+id/textView_CadaMed" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Martes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox_Martes"
+        android:layout_above="@+id/checkBox_Jueves"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Miercoles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox_Miercoles"
+        android:layout_alignBaseline="@+id/checkBox_Martes"
+        android:layout_alignBottom="@+id/checkBox_Martes"
+        android:layout_toRightOf="@+id/btnAgregarMed"
+        android:layout_toEndOf="@+id/btnAgregarMed"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Jueves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox_Lunes"
+        android:layout_alignStart="@+id/checkBox_Lunes"
+        android:layout_below="@+id/checkBox_Lunes"
+        android:layout_marginTop="15dp"
+        android:text="@string/checkBox_Jueves" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Viernes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox_Martes"
+        android:layout_alignStart="@+id/checkBox_Martes"
+        android:layout_alignTop="@+id/checkBox_Jueves"
+        android:text="@string/checkBox_Viernes" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Sabado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox_Miercoles"
+        android:layout_alignStart="@+id/checkBox_Miercoles"
+        android:layout_alignTop="@+id/checkBox_Viernes"
+        android:text="@string/checkBox_Sabado" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Domingo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox_Domingo"
+        android:layout_below="@+id/checkBox_Jueves"
+        android:layout_alignLeft="@+id/checkBox_Jueves"
+        android:layout_alignStart="@+id/checkBox_Jueves"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/editText_Amount"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_CantidadMed"
+        android:layout_alignBottom="@+id/textView_CantidadMed"
+        android:layout_alignEnd="@+id/checkBox_Martes"
+        android:layout_alignRight="@+id/checkBox_Martes"
+        android:ems="10"
+        android:inputType="number" />
+
+</RelativeLayout>

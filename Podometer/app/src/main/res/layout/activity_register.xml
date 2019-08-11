@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF1376D2"
+    tools:context="com.example.root.aplicacionbasedatos.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/registerSubTitulo"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText_UsernameReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:hint="@string/registerUsuario"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editText_PasswordReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_UsernameReg"
+        android:layout_alignStart="@+id/editText_UsernameReg"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:hint="@string/registerContrasena"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button_RegisterReg"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_PasswordReg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="#FF2C121B"
+        android:text="@string/registerRegistrarse"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/runnersregister" />
+</RelativeLayout>

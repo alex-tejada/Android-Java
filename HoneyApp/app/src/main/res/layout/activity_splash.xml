@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF211F20"
+    tools:context="com.developer.tonny.design.Activities.splashActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="380dp"
+        android:layout_marginTop="78dp"
+        app:srcCompat="@drawable/ad"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="My Honey App"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:indeterminateDrawable="@drawable/circle"
+        android:max="120"
+        android:progress="20"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/textView_Cargando"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView_Cargando"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:text="Cargando..."
+        android:textColor="@android:color/white" />
+</RelativeLayout>

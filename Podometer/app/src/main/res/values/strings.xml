@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">AplicacionBaseDatos</string>
+    <string name="loginEntrar">Entrar</string>
+    <string name="loginRegistrarse">Registrarse</string>
+    <string name="loginUsuario">Usuario</string>
+    <string name="loginContrasena">Contrasena</string>
+    <string name="loginTituloVentana">Iniciar Sesion</string>
+    <string name="loginMensajContraseña">Contrasena incorrecta</string>
+    <string name="loginMensajeUsuario">Nombre de usuario incorrecto</string>
+    <string name="loginSinUsuarios">Sin usuarios registrados</string>
+    <string name="loginCaptura">Ingrese usuario y contraseña</string>
+
+    <string name="registerRegistrarse">Registrarse</string>
+    <string name="registerUsuario">Usuario</string>
+    <string name="registerContrasena">Contrasena</string>
+    <string name="registerTituloVentana">Registro</string>
+    <string name="registerMensaje">Registrado</string>
+    <string name="registerSubTitulo">Ingesar Datos</string>
+
+    <string name="pasosPresioneBoton">Presione para iniciar</string>
+    <string name="pasosIniciandoBoton">Iniciando...</string>
+    <string name="pasosDetenerBoton">Detener</string>
+    <string name="pasosReiniciarBoton">Iniciar denuevo</string>
+    <string name="pasosEjercicioBoton">Ejercicio</string>
+    <string name="pasosDietaBoton">Dieta</string>
+    <string name="pasosCaloriasBoton">Calorias: </string>
+    <string name="pasosDistanciaBoton">Recorrido: </string>
+    <string name="pasosPasos">Pasos: </string>
+    <string name="pasosDistancia">Distancia: </string>
+    <string name="pasosCalorias">Calorias: </string>
+    <string name="pasosMensajeAct">Activando</string>
+    <string name="pasosMensajeDesac">Desactivado</string>
+    <string name="pasosGuardar">Guardar Puntaje</string>
+
+    <string name="dietSubTitulo">Comidas disponibles</string>
+    <string name="dietTitulo">Dieta</string>
+    <string name="dietCalorias">Calorias: </string>
+    <string name="dietPreparacion">Ver Preparacion</string>
+
+
+    <string name="dietaInfoTitulo">Platillo</string>
+    <string name="dietaInfoIngredientes">Ingredientes</string>
+    <string name="dietaInfoReceta">Receta</string>
+    <string name="dietaInfoPlatillo">Platillo</string>
+    <string name="platoHamb">Hamburguesa BBQ</string>
+    <string name="platoEns">Ensalada de Arroz del Medio Oriente</string>
+    <string name="platoHum">Hummus de Frijol Blanco y Hierbas Crudites</string>
+    <string name="platoBro">Omelet feta y brocoli </string>
+    <string name="platoHon">Banana con miel y fruta</string>
+
+    <string name="ejercicioTitulo">Ejercicio</string>
+    <string name="ejercicioSubTitulo">¿Que desea trabajar?</string>
+    <string name="ejercicioAbdominales">Abdominals</string>
+    <string name="ejercicioEspalda">Espalda</string>
+    <string name="ejercicioPiernas">Piernas</string>
+    <string name="ejercicioBicep">Bicep</string>
+    <string name="ejercicioTricep">Tricep</string>
+    <string name="ejercicioPecho">Pecho</string>
+    <string name="ejercicioGluteos">Gluteos</string>
+    <string name="ejercicioCalorias">Calorias a quemar: </string>
+
+    <string name="ejercicioInfoTitulo">Ejercicios</string>
+    <string name="ejercicioInfoDias">Dias de rutina: </string>
+    <string name="ejercicioInfoTiempo">Tiempo de rutina: </string>
+
+    <string name="infoTit">Informacion de cuenta</string>
+    <string name="infoSubTit1">Cuenta</string>
+    <string name="infoBotonChanPass">Cambiar</string>
+    <string name="infoSubTit2">Datos de cuenta</string>
+    <string name="infoChanPass">Nueva Contrasena</string>
+    <string name="infoRecordsView">Ver</string>
+    <string name="infoRecordsText">Historial</string>
+
+    <string name="detailTit">Detalles</string>
+    <string name="detailsErase">Borrar todo</string>
+    <string name="detailsAccountName">Cuenta: </string>
+    <string name="detailFecha">Fecha: </string>
+    <string name="detailCantidadPasos">Cantidad de Pasos: </string>
+    <string name="detailCantidadRecorrida">Distancia Recorrida: </string>
+    <string name="detailCantidadCalorias">Calorias Quemadas: </string>
+
+</resources>
+
+

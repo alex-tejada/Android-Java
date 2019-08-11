@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="500dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF451123"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/textView_TittleDialogInsulin"
+        android:textColor="@android:color/white"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/textView_InsulinUnitsDialog"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="@string/textView_UnitsInsulinDialog"
+        android:textColor="#FF451123"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView_Tittle"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/editText_InsulinaInf"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFD40F53"
+        android:inputType="numberDecimal"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView_InsulinUnitsDialog"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView_CantidadAplicaciones"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_InsulinUnitsDialog"
+        android:layout_alignStart="@+id/textView_InsulinUnitsDialog"
+        android:layout_below="@+id/editText_InsulinaInf"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="@string/textView_DoseRecommendedDialog"
+        android:textColor="#FF451123"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editText_CantidadAplicacionesInf"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_CantidadAplicaciones"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="#FFD40F53"
+        android:inputType="number"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/breakfast"
+        android:layout_below="@+id/editText_CantidadAplicacionesInf"
+        android:layout_toLeftOf="@+id/editText_InsulinaInf"
+        android:layout_toStartOf="@+id/editText_InsulinaInf" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/lunch"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/dinner"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toRightOf="@+id/editText_InsulinaInf"
+        android:layout_toEndOf="@+id/editText_InsulinaInf" />
+
+    <TextView
+        android:id="@+id/textView_Breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="12dp"
+        android:text="@string/insulinaDesayuno"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_Lunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_Breakfast"
+        android:layout_centerHorizontal="true"
+        android:text="@string/insulinaComida"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_Dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insulinaCena"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_alignBottom="@+id/textView_Lunch"
+        android:layout_alignRight="@+id/textView_CantidadAplicaciones"
+        android:layout_alignEnd="@+id/textView_CantidadAplicaciones"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignTop="@+id/textView_Lunch" />
+
+    <TextView
+        android:id="@+id/textView_BreakfastCant"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="27dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView_Breakfast"
+        android:layout_alignRight="@+id/textView_Breakfast"
+        android:layout_alignEnd="@+id/textView_Breakfast" />
+
+    <TextView
+        android:id="@+id/textView_LunchCant"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/textView_BreakfastCant"
+        android:layout_alignBottom="@+id/textView_BreakfastCant"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView_DinnerCant"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/textView_BreakfastCant"
+        android:layout_alignBottom="@+id/textView_BreakfastCant"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5" />
+
+</RelativeLayout>

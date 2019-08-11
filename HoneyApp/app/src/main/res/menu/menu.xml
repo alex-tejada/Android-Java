@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/menu_medicamentos"
+        app:showAsAction="never"
+        android:title="@string/menu_medicamentos" />
+    <item android:id="@+id/menu_alimentos"
+        app:showAsAction="never"
+        android:title="@string/menu_alimentos" />
+    <item android:id="@+id/menu_emergencias"
+        app:showAsAction="never"
+        android:title="@string/menu_emergencias" />
+    <item android:id="@+id/menu_mapa"
+        app:showAsAction="never"
+        android:title="@string/menu_mapa" />
+        -->
+    <item android:id="@+id/menu_ajustes"
+        app:showAsAction="never"
+        android:title="@string/menu_ajustes" />
+</menu>
